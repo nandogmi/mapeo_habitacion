@@ -1,0 +1,20 @@
+# --- Librerías principales de Python ---
+numpy==2.2.6
+matplotlib==3.9.2
+opencv-python==4.10.0.84
+
+# --- Detección y visión artificial ---
+ultralytics==8.3.32   # Incluye YOLOv8 y dependencias necesarias
+torch==2.9.0
+torchvision==0.24.0
+
+# --- Utilidades para manejo de datos y análisis ---
+pandas==2.2.3
+
+# --- Opcional pero recomendable ---
+tqdm==4.67.1           # Barras de progreso en loops
+scipy==1.14.1          # Cálculos científicos y filtrado de datos
+seaborn==0.13.2        # Visualización avanzada (para heatmaps más elegantes)
+
+# --- Solo si vas a usar bases de datos locales (SQLite) más adelante ---
+sqlalchemy==2.0.36
