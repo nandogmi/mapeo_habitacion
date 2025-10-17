@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyt
+
+# Entornos virtuales
+env/
+venv/
+.mamba/
+.miconda/
+*.conda
+*.egg-info/
+*.egg
+
+# Conda
+/conda-meta/
+/pkgs/
+/envs/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Datos grandes / salidas
+data/output/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Modelos preentrenados
+yolov8n.pt
+*.pt
+*.pth
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
